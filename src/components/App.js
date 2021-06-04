@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Web3 from 'web3'
 import './App.css';
 import Color from '../abis/Color.json'
+import TicketStore from '../abis/TicketStore.json'
 
 class App extends Component {
 
@@ -38,12 +39,13 @@ class App extends Component {
       this.setState({ contract })
       const totalSupply = await contract.methods.totalSupply().call()
       this.setState({ totalSupply })
+      const totalTicketNow =  await contract.methods.getTicketTotal().call()
+      console.log(totalTicketNow)
       // Load Colors
       for (var i = 1; i <= totalSupply; i++) {
         const color = await contract.methods.colors(i - 1).call()
         this.setState({
           colors: [...this.state.colors, color]
-
         })
       }
 
@@ -71,10 +73,33 @@ class App extends Component {
     } else {
       window.alert('Smart contract not deployed to detected network.')
     }
+
+    const networkDataStore = TicketStore.networks[networkId]
+    if(networkDataStore) {
+      const abiStore = TicketStore.abi
+      const addressStore = networkDataStore.address
+      const contractShop = new web3.eth.Contract(abiStore, addressStore)
+      this.setState({ contractShop })
+    } else {
+      window.alert('Smart contract not deployed to detected network.')
+    }
   }
 
   mint = (color) => {
-    this.state.contract.methods.mint(color).send({ from: this.state.account })
+    var value = 1;
+    var params = {
+      gas: 40000,
+      from: this.state.account,
+      value: value,
+    };
+    this.state.contractShop.methods.deposit(value, params, function(error, result){
+      if(!error){
+        console.log(result);
+      }else{
+        console.error(error);
+      }
+    });
+    this.state.contractShop.methods.buyTicket(color).send({ from: this.state.account })
         .once('receipt', (receipt) => {
           this.setState({
             colors: [...this.state.colors, color]
@@ -82,23 +107,16 @@ class App extends Component {
         })
   }
 
-  // queryColor = () => {
-  //   this.state.contract.methods.mint(color).send({ from: this.state.account })
-  //       .once('receipt', (receipt) => {
-  //         this.setState({
-  //           colors: [...this.state.colors, color]
-  //         })
-  //       })
-  // }
-
   constructor(props) {
     super(props)
     this.state = {
       account: '',
       contract: null,
+      contractShop: null,
       totalSupply: 0,
       colors: [],
-      ownedColor: []
+      ownedColor: [],
+      totalTicketNow: 0
     }
   }
 
