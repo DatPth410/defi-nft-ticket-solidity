@@ -80,25 +80,16 @@ class App extends Component {
       const addressStore = networkDataStore.address
       const contractShop = new web3.eth.Contract(abiStore, addressStore)
       this.setState({ contractShop })
+      const balance = await contractShop.methods.getBalanceMoney.call();
+      this.setState({ balance: balance })
+      console.log(balance)
     } else {
       window.alert('Smart contract not deployed to detected network.')
     }
   }
 
   mint = (color) => {
-    var value = 1;
-    var params = {
-      gas: 40000,
-      from: this.state.account,
-      value: value,
-    };
-    this.state.contractShop.methods.deposit(value, params, function(error, result){
-      if(!error){
-        console.log(result);
-      }else{
-        console.error(error);
-      }
-    });
+    this.state.contractShop.methods.receiveEthers({value:10000000000000000000, from:this.state.account});
     this.state.contractShop.methods.buyTicket(color).send({ from: this.state.account })
         .once('receipt', (receipt) => {
           this.setState({
@@ -116,7 +107,8 @@ class App extends Component {
       totalSupply: 0,
       colors: [],
       ownedColor: [],
-      totalTicketNow: 0
+      totalTicketNow: 0,
+      balance: 0
     }
   }
 
@@ -175,7 +167,7 @@ class App extends Component {
               })}
 
             </div>
-            <p>You own:</p>
+            <p>You own: </p>
             <div className="row text-center">
                 { this.state.ownedColor.map((color, key) => {
                   return(

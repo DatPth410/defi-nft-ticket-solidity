@@ -13,13 +13,19 @@ contract TicketStore {
         require(msg.value == amount);
     }
 
-    function getBalance() public view returns(uint) {
+    function getBalanceMoney() public view returns(uint) {
         return address(this).balance;
+    }
+
+    function receiveEthers() payable public  {
     }
 
     function buyTicket(string memory color) public returns (uint256) {
         uint256 tokenId = _festiTicket.mint(color, msg.sender);
         return tokenId;
+    }
+
+    function() payable external {
     }
 
 }
