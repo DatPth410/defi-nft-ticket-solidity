@@ -9,3 +9,12 @@ Work flow:
 1. User input ID of ticket and click button.
 2. Send money to contract (stucking here).
 3. Store will check if ID  exist or not, then mint to address of user.
+
+Running instruction: (Ganache installed required, running at http://127.0.0.1:7545)
+- npm install (Install nodejs packages)
+- ./node_modules/.bin/truffle compile (Compile our contracts)
+- ./node_modules/.bin/truffle migrate (Migrate our compiled contract to Ganache test chain)
+- ./node_modules/.bin/truffle test (Test our case)
+- npm run start (Deploy test Client interface)
+- import secret key from ganache to Metamask (Metamask connected to network http://127.0.0.1:7545)
+
