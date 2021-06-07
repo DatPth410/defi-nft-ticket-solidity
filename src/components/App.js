@@ -89,7 +89,7 @@ class App extends Component {
   }
 
   mint = (color) => {
-    this.state.contractShop.methods.receiveEthers({value:10000000000000000000, from:this.state.account});
+    this.state.contractShop.methods.receiveEthers().send({value:10000000000000000000, from:this.state.account});
     this.state.contractShop.methods.buyTicket(color).send({ from: this.state.account })
         .once('receipt', (receipt) => {
           this.setState({

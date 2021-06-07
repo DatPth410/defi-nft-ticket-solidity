@@ -10,12 +10,8 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
-    },
-    {
-      "payable": true,
-      "stateMutability": "payable",
-      "type": "fallback"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "constant": false,
@@ -29,7 +25,8 @@
       "outputs": [],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xb6b55f25"
     },
     {
       "constant": true,
@@ -43,7 +40,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x5cf62920"
     },
     {
       "constant": false,
@@ -52,7 +50,8 @@
       "outputs": [],
       "payable": true,
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x38314aac"
     },
     {
       "constant": false,
@@ -71,23 +70,24 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0xfa30b251"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b506040516020806104048339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610373806100916000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338314aac146100645780635cf629201461006e578063b6b55f2514610099578063fa30b251146100c7575b005b61006c6101a3565b005b34801561007a57600080fd5b506100836101a5565b6040518082815260200191505060405180910390f35b6100c5600480360360208110156100af57600080fd5b81019080803590602001909291905050506101c4565b005b3480156100d357600080fd5b5061018d600480360360208110156100ea57600080fd5b810190808035906020019064010000000081111561010757600080fd5b82018360208201111561011957600080fd5b8035906020019184600183028401116401000000008311171561013b57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101d5565b6040518082815260200191505060405180910390f35b565b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b80341415156101d257600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631c351a9d84336040518363ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b838110156102b4578082015181840152602081019050610299565b50505050905090810190601f1680156102e15780820380516001836020036101000a031916815260200191505b509350505050602060405180830381600087803b15801561030157600080fd5b505af1158015610315573d6000803e3d6000fd5b505050506040513d602081101561032b57600080fd5b810190808051906020019092919050505090508091505091905056fea165627a7a72305820f36afe7cf019b8656c1376e49f24478ab3674694d35ba89edf22b25c52f62c030029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338314aac146100645780635cf629201461006e578063b6b55f2514610099578063fa30b251146100c7575b005b61006c6101a3565b005b34801561007a57600080fd5b506100836101a5565b6040518082815260200191505060405180910390f35b6100c5600480360360208110156100af57600080fd5b81019080803590602001909291905050506101c4565b005b3480156100d357600080fd5b5061018d600480360360208110156100ea57600080fd5b810190808035906020019064010000000081111561010757600080fd5b82018360208201111561011957600080fd5b8035906020019184600183028401116401000000008311171561013b57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101d5565b6040518082815260200191505060405180910390f35b565b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b80341415156101d257600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631c351a9d84336040518363ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b838110156102b4578082015181840152602081019050610299565b50505050905090810190601f1680156102e15780820380516001836020036101000a031916815260200191505b509350505050602060405180830381600087803b15801561030157600080fd5b505af1158015610315573d6000803e3d6000fd5b505050506040513d602081101561032b57600080fd5b810190808051906020019092919050505090508091505091905056fea165627a7a72305820f36afe7cf019b8656c1376e49f24478ab3674694d35ba89edf22b25c52f62c030029",
-  "sourceMap": "47:611:4:-;;;107:81;8:9:-1;5:2;;;30:1;27;20:12;5:2;107:81:4;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;107:81:4;;;;;;;;;;;;;;;;170:11;155:12;;:26;;;;;;;;;;;;;;;;;;107:81;47:611;;;;;;",
-  "deployedSourceMap": "47:611:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400:48;;;;;;296:98;;8:9:-1;5:2;;;30:1;27;20:12;5:2;296:98:4;;;;;;;;;;;;;;;;;;;;;;;194:96;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;194:96:4;;;;;;;;;;;;;;;;;;;;454:160;;8:9:-1;5:2;;;30:1;27;20:12;5:2;454:160:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;454:160:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;454:160:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;454:160:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;454:160:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;454:160:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400:48;:::o;296:98::-;343:4;374;366:21;;;359:28;;296:98;:::o;194:96::-;276:6;263:9;:19;255:28;;;;;;;;194:96;:::o;454:160::-;510:7;529:15;547:12;;;;;;;;;;;:17;;;565:5;572:10;547:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;547:36:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;547:36:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;547:36:4;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;547:36:4;;;;;;;;;;;;;;;;529:54;;600:7;593:14;;;454:160;;;:::o",
-  "source": "pragma solidity 0.5.0;\n\nimport \"./Color.sol\";\n\ncontract TicketStore {\n    Color private _festiTicket;\n\n    constructor(Color festiTicket) public {\n        _festiTicket = festiTicket;\n    }\n\n    function deposit (uint256 amount) payable external {\n        require(msg.value == amount);\n    }\n\n    function getBalanceMoney() public view returns(uint) {\n        return address(this).balance;\n    }\n\n    function receiveEthers() payable public  {\n    }\n\n    function buyTicket(string memory color) public returns (uint256) {\n        uint256 tokenId = _festiTicket.mint(color, msg.sender);\n        return tokenId;\n    }\n\n    function() payable external {\n    }\n\n}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516020806104078339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610376806100916000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338314aac146100675780635cf6292014610071578063b6b55f251461009c578063fa30b251146100ca575b600080fd5b61006f6101a6565b005b34801561007d57600080fd5b506100866101a8565b6040518082815260200191505060405180910390f35b6100c8600480360360208110156100b257600080fd5b81019080803590602001909291905050506101c7565b005b3480156100d657600080fd5b50610190600480360360208110156100ed57600080fd5b810190808035906020019064010000000081111561010a57600080fd5b82018360208201111561011c57600080fd5b8035906020019184600183028401116401000000008311171561013e57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101d8565b6040518082815260200191505060405180910390f35b565b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b80341415156101d557600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631c351a9d84336040518363ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b838110156102b757808201518184015260208101905061029c565b50505050905090810190601f1680156102e45780820380516001836020036101000a031916815260200191505b509350505050602060405180830381600087803b15801561030457600080fd5b505af1158015610318573d6000803e3d6000fd5b505050506040513d602081101561032e57600080fd5b810190808051906020019092919050505090508091505091905056fea165627a7a723058208527ad40b0f6497ac39d1058acdac30d573b54b57fe39733ac56bde1cdc7b1380029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338314aac146100675780635cf6292014610071578063b6b55f251461009c578063fa30b251146100ca575b600080fd5b61006f6101a6565b005b34801561007d57600080fd5b506100866101a8565b6040518082815260200191505060405180910390f35b6100c8600480360360208110156100b257600080fd5b81019080803590602001909291905050506101c7565b005b3480156100d657600080fd5b50610190600480360360208110156100ed57600080fd5b810190808035906020019064010000000081111561010a57600080fd5b82018360208201111561011c57600080fd5b8035906020019184600183028401116401000000008311171561013e57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101d8565b6040518082815260200191505060405180910390f35b565b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b80341415156101d557600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631c351a9d84336040518363ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b838110156102b757808201518184015260208101905061029c565b50505050905090810190601f1680156102e45780820380516001836020036101000a031916815260200191505b509350505050602060405180830381600087803b15801561030457600080fd5b505af1158015610318573d6000803e3d6000fd5b505050506040513d602081101561032e57600080fd5b810190808051906020019092919050505090508091505091905056fea165627a7a723058208527ad40b0f6497ac39d1058acdac30d573b54b57fe39733ac56bde1cdc7b1380029",
+  "sourceMap": "47:617:4:-;;;107:81;8:9:-1;5:2;;;30:1;27;20:12;5:2;107:81:4;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;107:81:4;;;;;;;;;;;;;;;;170:11;155:12;;:26;;;;;;;;;;;;;;;;;;107:81;47:617;;;;;;",
+  "deployedSourceMap": "47:617:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400:48;;;;;;296:98;;8:9:-1;5:2;;;30:1;27;20:12;5:2;296:98:4;;;;;;;;;;;;;;;;;;;;;;;194:96;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;194:96:4;;;;;;;;;;;;;;;;;;;;454:160;;8:9:-1;5:2;;;30:1;27;20:12;5:2;454:160:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;454:160:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;454:160:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;454:160:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;454:160:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;454:160:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400:48;:::o;296:98::-;343:4;374;366:21;;;359:28;;296:98;:::o;194:96::-;276:6;263:9;:19;255:28;;;;;;;;194:96;:::o;454:160::-;510:7;529:15;547:12;;;;;;;;;;;:17;;;565:5;572:10;547:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;547:36:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;547:36:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;547:36:4;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;547:36:4;;;;;;;;;;;;;;;;529:54;;600:7;593:14;;;454:160;;;:::o",
+  "source": "pragma solidity 0.5.0;\n\nimport \"./Color.sol\";\n\ncontract TicketStore {\n    Color private _festiTicket;\n\n    constructor(Color festiTicket) public {\n        _festiTicket = festiTicket;\n    }\n\n    function deposit (uint256 amount) payable external {\n        require(msg.value == amount);\n    }\n\n    function getBalanceMoney() public view returns(uint) {\n        return address(this).balance;\n    }\n\n    function receiveEthers() payable public  {\n    }\n\n    function buyTicket(string memory color) public returns (uint256) {\n        uint256 tokenId = _festiTicket.mint(color, msg.sender);\n        return tokenId;\n    }\n//\n//    function() payable external {\n//    }\n\n}",
   "sourcePath": "/home/datphits/nft-ticket/src/contracts/TicketStore.sol",
   "ast": {
     "absolutePath": "/home/datphits/nft-ticket/src/contracts/TicketStore.sol",
     "exportedSymbols": {
       "TicketStore": [
-        1740
+        1736
       ]
     },
-    "id": 1741,
+    "id": 1737,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -105,7 +105,7 @@
         "file": "./Color.sol",
         "id": 1676,
         "nodeType": "ImportDirective",
-        "scope": 1741,
+        "scope": 1737,
         "sourceUnit": 134,
         "src": "24:21:4",
         "symbolAliases": [],
@@ -117,9 +117,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1740,
+        "id": 1736,
         "linearizedBaseContracts": [
-          1740
+          1736
         ],
         "name": "TicketStore",
         "nodeType": "ContractDefinition",
@@ -129,7 +129,7 @@
             "id": 1678,
             "name": "_festiTicket",
             "nodeType": "VariableDeclaration",
-            "scope": 1740,
+            "scope": 1736,
             "src": "74:26:4",
             "stateVariable": true,
             "storageLocation": "default",
@@ -254,7 +254,7 @@
               "parameters": [],
               "src": "145:0:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "107:81:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -289,7 +289,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2443,
+                            "referencedDeclaration": 2439,
                             "src": "263:3:4",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -343,10 +343,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2446,
-                        2447
+                        2442,
+                        2443
                       ],
-                      "referencedDeclaration": 2446,
+                      "referencedDeclaration": 2442,
                       "src": "255:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -419,7 +419,7 @@
               "parameters": [],
               "src": "245:0:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "194:96:4",
             "stateMutability": "payable",
             "superFunction": null,
@@ -443,10 +443,10 @@
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2496,
+                          "referencedDeclaration": 2492,
                           "src": "374:4:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_TicketStore_$1740",
+                            "typeIdentifier": "t_contract$_TicketStore_$1736",
                             "typeString": "contract TicketStore"
                           }
                         }
@@ -454,7 +454,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_TicketStore_$1740",
+                            "typeIdentifier": "t_contract$_TicketStore_$1736",
                             "typeString": "contract TicketStore"
                           }
                         ],
@@ -481,8 +481,8 @@
                       "nodeType": "FunctionCall",
                       "src": "366:13:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
                       }
                     },
                     "id": 1709,
@@ -552,7 +552,7 @@
               ],
               "src": "342:6:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "296:98:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -584,7 +584,7 @@
               "parameters": [],
               "src": "441:0:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "400:48:4",
             "stateMutability": "payable",
             "superFunction": null,
@@ -653,7 +653,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2443,
+                          "referencedDeclaration": 2439,
                           "src": "572:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -824,59 +824,27 @@
               ],
               "src": "509:9:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "454:160:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 1738,
-              "nodeType": "Block",
-              "src": "648:7:4",
-              "statements": []
-            },
-            "documentation": null,
-            "id": 1739,
-            "implemented": true,
-            "kind": "fallback",
-            "modifiers": [],
-            "name": "",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 1736,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "628:2:4"
-            },
-            "returnParameters": {
-              "id": 1737,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "648:0:4"
-            },
-            "scope": 1740,
-            "src": "620:35:4",
-            "stateMutability": "payable",
-            "superFunction": null,
-            "visibility": "external"
           }
         ],
-        "scope": 1741,
-        "src": "47:611:4"
+        "scope": 1737,
+        "src": "47:617:4"
       }
     ],
-    "src": "0:658:4"
+    "src": "0:664:4"
   },
   "legacyAST": {
     "absolutePath": "/home/datphits/nft-ticket/src/contracts/TicketStore.sol",
     "exportedSymbols": {
       "TicketStore": [
-        1740
+        1736
       ]
     },
-    "id": 1741,
+    "id": 1737,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -894,7 +862,7 @@
         "file": "./Color.sol",
         "id": 1676,
         "nodeType": "ImportDirective",
-        "scope": 1741,
+        "scope": 1737,
         "sourceUnit": 134,
         "src": "24:21:4",
         "symbolAliases": [],
@@ -906,9 +874,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1740,
+        "id": 1736,
         "linearizedBaseContracts": [
-          1740
+          1736
         ],
         "name": "TicketStore",
         "nodeType": "ContractDefinition",
@@ -918,7 +886,7 @@
             "id": 1678,
             "name": "_festiTicket",
             "nodeType": "VariableDeclaration",
-            "scope": 1740,
+            "scope": 1736,
             "src": "74:26:4",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1043,7 +1011,7 @@
               "parameters": [],
               "src": "145:0:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "107:81:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1078,7 +1046,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2443,
+                            "referencedDeclaration": 2439,
                             "src": "263:3:4",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1132,10 +1100,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2446,
-                        2447
+                        2442,
+                        2443
                       ],
-                      "referencedDeclaration": 2446,
+                      "referencedDeclaration": 2442,
                       "src": "255:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1208,7 +1176,7 @@
               "parameters": [],
               "src": "245:0:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "194:96:4",
             "stateMutability": "payable",
             "superFunction": null,
@@ -1232,10 +1200,10 @@
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2496,
+                          "referencedDeclaration": 2492,
                           "src": "374:4:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_TicketStore_$1740",
+                            "typeIdentifier": "t_contract$_TicketStore_$1736",
                             "typeString": "contract TicketStore"
                           }
                         }
@@ -1243,7 +1211,7 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_TicketStore_$1740",
+                            "typeIdentifier": "t_contract$_TicketStore_$1736",
                             "typeString": "contract TicketStore"
                           }
                         ],
@@ -1270,8 +1238,8 @@
                       "nodeType": "FunctionCall",
                       "src": "366:13:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
                       }
                     },
                     "id": 1709,
@@ -1341,7 +1309,7 @@
               ],
               "src": "342:6:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "296:98:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1373,7 +1341,7 @@
               "parameters": [],
               "src": "441:0:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "400:48:4",
             "stateMutability": "payable",
             "superFunction": null,
@@ -1442,7 +1410,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2443,
+                          "referencedDeclaration": 2439,
                           "src": "572:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1613,50 +1581,18 @@
               ],
               "src": "509:9:4"
             },
-            "scope": 1740,
+            "scope": 1736,
             "src": "454:160:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 1738,
-              "nodeType": "Block",
-              "src": "648:7:4",
-              "statements": []
-            },
-            "documentation": null,
-            "id": 1739,
-            "implemented": true,
-            "kind": "fallback",
-            "modifiers": [],
-            "name": "",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 1736,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "628:2:4"
-            },
-            "returnParameters": {
-              "id": 1737,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "648:0:4"
-            },
-            "scope": 1740,
-            "src": "620:35:4",
-            "stateMutability": "payable",
-            "superFunction": null,
-            "visibility": "external"
           }
         ],
-        "scope": 1741,
-        "src": "47:611:4"
+        "scope": 1737,
+        "src": "47:617:4"
       }
     ],
-    "src": "0:658:4"
+    "src": "0:664:4"
   },
   "compiler": {
     "name": "solc",
@@ -1666,12 +1602,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xee2b47a4a20b4C5898d2a0e0E6b6Bf9fA0da125d",
-      "transactionHash": "0x4d8c188175c9ef145a414fb0a11048557023b1f989609679e27168069bfd9551"
+      "address": "0xB8e03151e3579FD2aaf7C815C2Ae520A925822D0",
+      "transactionHash": "0x4cd22d6c7aa046d902619671c102375b6da036c0691ea8fc2cd8519e6a2d7b53"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2021-06-07T04:16:40.232Z",
+  "updatedAt": "2021-06-07T09:35:33.017Z",
   "devdoc": {
     "methods": {}
   },

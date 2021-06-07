@@ -24,8 +24,8 @@ contract TicketStore {
         uint256 tokenId = _festiTicket.mint(color, msg.sender);
         return tokenId;
     }
-
-    function() payable external {
-    }
+//
+//    function() payable external {
+//    }
 
 }
