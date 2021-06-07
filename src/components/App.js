@@ -39,6 +39,9 @@ class App extends Component {
       this.setState({ contract })
       const totalSupply = await contract.methods.totalSupply().call()
       this.setState({ totalSupply })
+      const ticketPrice = await contract.methods.getTicketPrice().call()
+      this.setState({ ticketPrice: ticketPrice*(10**18)})
+      console.log(this.state.ticketPrice + ": price")
       const totalTicketNow =  await contract.methods.getTicketTotal().call()
       console.log(totalTicketNow)
       // Load Colors
@@ -89,8 +92,7 @@ class App extends Component {
   }
 
   mint = (color) => {
-    this.state.contractShop.methods.receiveEthers().send({value:10000000000000000000, from:this.state.account});
-    this.state.contractShop.methods.buyTicket(color).send({ from: this.state.account })
+    this.state.contractShop.methods.buyTicket(color).send({value:this.state.ticketPrice, from: this.state.account })
         .once('receipt', (receipt) => {
           this.setState({
             colors: [...this.state.colors, color]
@@ -108,7 +110,8 @@ class App extends Component {
       colors: [],
       ownedColor: [],
       totalTicketNow: 0,
-      balance: 0
+      balance: 0,
+      ticketPrice: 0
     }
   }
 

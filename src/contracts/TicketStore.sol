@@ -17,10 +17,10 @@ contract TicketStore {
         return address(this).balance;
     }
 
-    function receiveEthers() payable public  {
-    }
+//    function receiveEthers()  public  {
+//    }
 
-    function buyTicket(string memory color) public returns (uint256) {
+    function buyTicket(string memory color) payable public returns (uint256) {
         uint256 tokenId = _festiTicket.mint(color, msg.sender);
         return tokenId;
     }
