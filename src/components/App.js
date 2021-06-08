@@ -46,10 +46,13 @@ class App extends Component {
       console.log(totalTicketNow)
       // Load Colors
       for (var i = 1; i <= totalSupply; i++) {
-        const color = await contract.methods.colors(i - 1).call()
+        const color = await contract.methods.idTicket(i-1).call()
         this.setState({
-          colors: [...this.state.colors, color]
+          colors: [...this.state.colors, parseInt(color._hex)]
         })
+        console.log( "A" + color);
+        console.log(typeof(color));
+        console.log(JSON.stringify(color));
       }
 
       console.log(this.state.colors);
@@ -64,8 +67,8 @@ class App extends Component {
 
       for (i=0; i< balanceOfOwner; i++) {
         const ticketId = await contract.methods.tokenOfOwnerByIndex(myAccount,i).call();
-        const name = await contract.methods.colors(ticketId-1).call();
-        colorName.push(name);
+        const name = await contract.methods.idTicket(ticketId-1).call();
+        colorName.push(parseInt(name._hex));
       }
 
       console.log("ABC"+colorName)
@@ -92,7 +95,7 @@ class App extends Component {
   }
 
   mint = (color) => {
-    this.state.contractShop.methods.buyTicket(color).send({value:this.state.ticketPrice, from: this.state.account })
+    this.state.contractShop.methods.buyTicket().send({value:this.state.ticketPrice, from: this.state.account })
         .once('receipt', (receipt) => {
           this.setState({
             colors: [...this.state.colors, color]
@@ -125,7 +128,7 @@ class App extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-              Color Tokens
+              Ticket Seller
             </a>
             <ul className="navbar-nav px-3">
               <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
@@ -135,24 +138,17 @@ class App extends Component {
           </nav>
           <div className="container-fluid mt-5">
             <div className="row">
-              <main role="main" className="col-lg-12 d-flex text-center">
+              <main role="main" className="mainClass col-lg-12 d-flex text-center">
                 <div className="content mr-auto ml-auto">
-                  <h1>Issue Token</h1>
+                  <h1>Click to buy</h1>
                   <form onSubmit={(event) => {
                     event.preventDefault()
-                    const color = this.color.value
-                    this.mint(color)
+                    this.mint()
                   }}>
-                    <input
-                        type='text'
-                        className='form-control mb-1'
-                        placeholder='e.g. #FFFFFF'
-                        ref={(input) => { this.color = input }}
-                    />
                     <input
                         type='submit'
                         className='btn btn-block btn-primary'
-                        value='MINT'
+                        value='Buy Ticket'
                     />
                   </form>
                 </div>
@@ -162,10 +158,10 @@ class App extends Component {
             <div className="row text-center">
               { this.state.colors.map((color, key) => {
                 return(
-                    <div key={key} className="col-md-3 mb-3">
-                      <div className="token" style={{ backgroundColor: color }}></div>
-                      <div>{color}</div>
+                    <div key={key} className="col-md-12 mb-12">
+                      <p>Ticket {color} selled! </p><br/>
                     </div>
+
                 )
               })}
 
@@ -175,8 +171,34 @@ class App extends Component {
                 { this.state.ownedColor.map((color, key) => {
                   return(
                       <div key={key} className="col-md-3 mb-3">
-                        <div className="token" style={{ backgroundColor: color }}></div>
-                        <div>{color}</div>
+                        <div className="ticket ticket-1">
+                          <div class="date">
+                            <span class="day">31</span>
+                            <span class="month-and-time">OCT<br/><span class="small">8PM</span></span>
+                          </div>
+
+                          <div class="artist">
+                            <span class="name">PETER TOSH</span>
+                            <br/>
+                            <span class="live small">LIVE</span>
+                          </div>
+
+                          <div className="location">
+                            <span>KINGSTON TOWN</span>
+                            <br/>
+                            <span className="small"><span>NANCY'S PUB</span></span>
+                          </div>
+
+                          <div className="rip">
+                          </div>
+
+                          <div className="cta">
+                            <span>Ticket <br/> no.</span>
+                            <br/>
+                            <br/>
+                            <h1>{color}</h1>
+                          </div>
+                        </div>
                       </div>
                   )
                 })}

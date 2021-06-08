@@ -45,12 +45,7 @@
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "color",
-          "type": "string"
-        }
-      ],
+      "inputs": [],
       "name": "buyTicket",
       "outputs": [
         {
@@ -61,27 +56,27 @@
       "payable": true,
       "stateMutability": "payable",
       "type": "function",
-      "signature": "0xfa30b251"
+      "signature": "0xedca914c"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b506040516020806103e38339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610352806100916000396000f3fe608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635cf629201461005c578063b6b55f2514610087578063fa30b251146100b5575b600080fd5b34801561006857600080fd5b50610071610184565b6040518082815260200191505060405180910390f35b6100b36004803603602081101561009d57600080fd5b81019080803590602001909291905050506101a3565b005b61016e600480360360208110156100cb57600080fd5b81019080803590602001906401000000008111156100e857600080fd5b8201836020820111156100fa57600080fd5b8035906020019184600183028401116401000000008311171561011c57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101b4565b6040518082815260200191505060405180910390f35b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b80341415156101b157600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631c351a9d84336040518363ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b83811015610293578082015181840152602081019050610278565b50505050905090810190601f1680156102c05780820380516001836020036101000a031916815260200191505b509350505050602060405180830381600087803b1580156102e057600080fd5b505af11580156102f4573d6000803e3d6000fd5b505050506040513d602081101561030a57600080fd5b810190808051906020019092919050505090508091505091905056fea165627a7a72305820fc54f45e2be540408486142396ebbe6cc06f05ec48079da8940c731cd1771d160029",
-  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635cf629201461005c578063b6b55f2514610087578063fa30b251146100b5575b600080fd5b34801561006857600080fd5b50610071610184565b6040518082815260200191505060405180910390f35b6100b36004803603602081101561009d57600080fd5b81019080803590602001909291905050506101a3565b005b61016e600480360360208110156100cb57600080fd5b81019080803590602001906401000000008111156100e857600080fd5b8201836020820111156100fa57600080fd5b8035906020019184600183028401116401000000008311171561011c57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101b4565b6040518082815260200191505060405180910390f35b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b80341415156101b157600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631c351a9d84336040518363ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b83811015610293578082015181840152602081019050610278565b50505050905090810190601f1680156102c05780820380516001836020036101000a031916815260200191505b509350505050602060405180830381600087803b1580156102e057600080fd5b505af11580156102f4573d6000803e3d6000fd5b505050506040513d602081101561030a57600080fd5b810190808051906020019092919050505090508091505091905056fea165627a7a72305820fc54f45e2be540408486142396ebbe6cc06f05ec48079da8940c731cd1771d160029",
-  "sourceMap": "47:622:4:-;;;107:81;8:9:-1;5:2;;;30:1;27;20:12;5:2;107:81:4;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;107:81:4;;;;;;;;;;;;;;;;170:11;155:12;;:26;;;;;;;;;;;;;;;;;;107:81;47:622;;;;;;",
-  "deployedSourceMap": "47:622:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;296:98;;8:9:-1;5:2;;;30:1;27;20:12;5:2;296:98:4;;;;;;;;;;;;;;;;;;;;;;;194:96;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;194:96:4;;;;;;;;;;;;;;;;;;;;451:168;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;451:168:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;451:168:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;451:168:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;451:168:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;451:168:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;296:98;343:4;374;366:21;;;359:28;;296:98;:::o;194:96::-;276:6;263:9;:19;255:28;;;;;;;;194:96;:::o;451:168::-;515:7;534:15;552:12;;;;;;;;;;;:17;;;570:5;577:10;552:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;552:36:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;552:36:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;552:36:4;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;552:36:4;;;;;;;;;;;;;;;;534:54;;605:7;598:14;;;451:168;;;:::o",
-  "source": "pragma solidity 0.5.0;\n\nimport \"./Color.sol\";\n\ncontract TicketStore {\n    Color private _festiTicket;\n\n    constructor(Color festiTicket) public {\n        _festiTicket = festiTicket;\n    }\n\n    function deposit (uint256 amount) payable external {\n        require(msg.value == amount);\n    }\n\n    function getBalanceMoney() public view returns(uint) {\n        return address(this).balance;\n    }\n\n//    function receiveEthers()  public  {\n//    }\n\n    function buyTicket(string memory color) payable public returns (uint256) {\n        uint256 tokenId = _festiTicket.mint(color, msg.sender);\n        return tokenId;\n    }\n//\n//    function() payable external {\n//    }\n\n}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516020806102c38339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610232806100916000396000f3fe608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635cf629201461005c578063b6b55f2514610087578063edca914c146100b5575b600080fd5b34801561006857600080fd5b506100716100d3565b6040518082815260200191505060405180910390f35b6100b36004803603602081101561009d57600080fd5b81019080803590602001909291905050506100f2565b005b6100bd610103565b6040518082815260200191505060405180910390f35b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b803414151561010057600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16636a627842336040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156101c257600080fd5b505af11580156101d6573d6000803e3d6000fd5b505050506040513d60208110156101ec57600080fd5b81019080805190602001909291905050509050809150509056fea165627a7a72305820f1e1da47eb4afb1556ee581048f4d12519ae4af50f63d41dbacaf37b963ddff30029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680635cf629201461005c578063b6b55f2514610087578063edca914c146100b5575b600080fd5b34801561006857600080fd5b506100716100d3565b6040518082815260200191505060405180910390f35b6100b36004803603602081101561009d57600080fd5b81019080803590602001909291905050506100f2565b005b6100bd610103565b6040518082815260200191505060405180910390f35b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b803414151561010057600080fd5b50565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16636a627842336040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b1580156101c257600080fd5b505af11580156101d6573d6000803e3d6000fd5b505050506040513d60208110156101ec57600080fd5b81019080805190602001909291905050509050809150509056fea165627a7a72305820f1e1da47eb4afb1556ee581048f4d12519ae4af50f63d41dbacaf37b963ddff30029",
+  "sourceMap": "47:596:4:-;;;107:81;8:9:-1;5:2;;;30:1;27;20:12;5:2;107:81:4;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;107:81:4;;;;;;;;;;;;;;;;170:11;155:12;;:26;;;;;;;;;;;;;;;;;;107:81;47:596;;;;;;",
+  "deployedSourceMap": "47:596:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;296:98;;8:9:-1;5:2;;;30:1;27;20:12;5:2;296:98:4;;;;;;;;;;;;;;;;;;;;;;;194:96;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;194:96:4;;;;;;;;;;;;;;;;;;;;451:142;;;;;;;;;;;;;;;;;;;;;;;296:98;343:4;374;366:21;;;359:28;;296:98;:::o;194:96::-;276:6;263:9;:19;255:28;;;;;;;;194:96;:::o;451:142::-;496:7;515:15;533:12;;;;;;;;;;;:17;;;551:10;533:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;533:29:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;533:29:4;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;533:29:4;;;;;;;;;;;;;;;;515:47;;579:7;572:14;;;451:142;:::o",
+  "source": "pragma solidity 0.5.0;\n\nimport \"./Color.sol\";\n\ncontract TicketStore {\n    Color private _festiTicket;\n\n    constructor(Color festiTicket) public {\n        _festiTicket = festiTicket;\n    }\n\n    function deposit (uint256 amount) payable external {\n        require(msg.value == amount);\n    }\n\n    function getBalanceMoney() public view returns(uint) {\n        return address(this).balance;\n    }\n\n//    function receiveEthers()  public  {\n//    }\n\n    function buyTicket() payable public returns (uint256) {\n        uint256 tokenId = _festiTicket.mint(msg.sender);\n        return tokenId;\n    }\n//\n//    function() payable external {\n//    }\n\n}",
   "sourcePath": "/home/datphits/nft-ticket/src/contracts/TicketStore.sol",
   "ast": {
     "absolutePath": "/home/datphits/nft-ticket/src/contracts/TicketStore.sol",
     "exportedSymbols": {
       "TicketStore": [
-        1732
+        1717
       ]
     },
-    "id": 1733,
+    "id": 1718,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1675,
+        "id": 1663,
         "literals": [
           "solidity",
           "0.5",
@@ -93,10 +88,10 @@
       {
         "absolutePath": "/home/datphits/nft-ticket/src/contracts/Color.sol",
         "file": "./Color.sol",
-        "id": 1676,
+        "id": 1664,
         "nodeType": "ImportDirective",
-        "scope": 1733,
-        "sourceUnit": 134,
+        "scope": 1718,
+        "sourceUnit": 122,
         "src": "24:21:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -107,35 +102,35 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1732,
+        "id": 1717,
         "linearizedBaseContracts": [
-          1732
+          1717
         ],
         "name": "TicketStore",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 1678,
+            "id": 1666,
             "name": "_festiTicket",
             "nodeType": "VariableDeclaration",
-            "scope": 1732,
+            "scope": 1717,
             "src": "74:26:4",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Color_$133",
+              "typeIdentifier": "t_contract$_Color_$121",
               "typeString": "contract Color"
             },
             "typeName": {
               "contractScope": null,
-              "id": 1677,
+              "id": 1665,
               "name": "Color",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 133,
+              "referencedDeclaration": 121,
               "src": "74:5:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Color_$133",
+                "typeIdentifier": "t_contract$_Color_$121",
                 "typeString": "contract Color"
               }
             },
@@ -144,28 +139,28 @@
           },
           {
             "body": {
-              "id": 1687,
+              "id": 1675,
               "nodeType": "Block",
               "src": "145:43:4",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1685,
+                    "id": 1673,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 1683,
+                      "id": 1671,
                       "name": "_festiTicket",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1678,
+                      "referencedDeclaration": 1666,
                       "src": "155:12:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Color_$133",
+                        "typeIdentifier": "t_contract$_Color_$121",
                         "typeString": "contract Color"
                       }
                     },
@@ -173,62 +168,62 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1684,
+                      "id": 1672,
                       "name": "festiTicket",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1680,
+                      "referencedDeclaration": 1668,
                       "src": "170:11:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Color_$133",
+                        "typeIdentifier": "t_contract$_Color_$121",
                         "typeString": "contract Color"
                       }
                     },
                     "src": "155:26:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Color_$133",
+                      "typeIdentifier": "t_contract$_Color_$121",
                       "typeString": "contract Color"
                     }
                   },
-                  "id": 1686,
+                  "id": 1674,
                   "nodeType": "ExpressionStatement",
                   "src": "155:26:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1688,
+            "id": 1676,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1681,
+              "id": 1669,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1680,
+                  "id": 1668,
                   "name": "festiTicket",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1688,
+                  "scope": 1676,
                   "src": "119:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Color_$133",
+                    "typeIdentifier": "t_contract$_Color_$121",
                     "typeString": "contract Color"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 1679,
+                    "id": 1667,
                     "name": "Color",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 133,
+                    "referencedDeclaration": 121,
                     "src": "119:5:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Color_$133",
+                      "typeIdentifier": "t_contract$_Color_$121",
                       "typeString": "contract Color"
                     }
                   },
@@ -239,12 +234,12 @@
               "src": "118:19:4"
             },
             "returnParameters": {
-              "id": 1682,
+              "id": 1670,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "145:0:4"
             },
-            "scope": 1732,
+            "scope": 1717,
             "src": "107:81:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -252,7 +247,7 @@
           },
           {
             "body": {
-              "id": 1700,
+              "id": 1688,
               "nodeType": "Block",
               "src": "245:45:4",
               "statements": [
@@ -266,7 +261,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 1697,
+                        "id": 1685,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -275,18 +270,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 1694,
+                            "id": 1682,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2435,
+                            "referencedDeclaration": 2420,
                             "src": "263:3:4",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 1695,
+                          "id": 1683,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -304,11 +299,11 @@
                         "operator": "==",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 1696,
+                          "id": 1684,
                           "name": "amount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1690,
+                          "referencedDeclaration": 1678,
                           "src": "276:6:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -329,21 +324,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 1693,
+                      "id": 1681,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2438,
-                        2439
+                        2423,
+                        2424
                       ],
-                      "referencedDeclaration": 2438,
+                      "referencedDeclaration": 2423,
                       "src": "255:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 1698,
+                    "id": 1686,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -357,29 +352,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1699,
+                  "id": 1687,
                   "nodeType": "ExpressionStatement",
                   "src": "255:28:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1701,
+            "id": 1689,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1691,
+              "id": 1679,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1690,
+                  "id": 1678,
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1701,
+                  "scope": 1689,
                   "src": "212:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -388,7 +383,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1689,
+                    "id": 1677,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "212:7:4",
@@ -404,12 +399,12 @@
               "src": "211:16:4"
             },
             "returnParameters": {
-              "id": 1692,
+              "id": 1680,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "245:0:4"
             },
-            "scope": 1732,
+            "scope": 1717,
             "src": "194:96:4",
             "stateMutability": "payable",
             "superFunction": null,
@@ -417,7 +412,7 @@
           },
           {
             "body": {
-              "id": 1711,
+              "id": 1699,
               "nodeType": "Block",
               "src": "349:45:4",
               "statements": [
@@ -429,14 +424,14 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 1707,
+                          "id": 1695,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2488,
+                          "referencedDeclaration": 2473,
                           "src": "374:4:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_TicketStore_$1732",
+                            "typeIdentifier": "t_contract$_TicketStore_$1717",
                             "typeString": "contract TicketStore"
                           }
                         }
@@ -444,11 +439,11 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_TicketStore_$1732",
+                            "typeIdentifier": "t_contract$_TicketStore_$1717",
                             "typeString": "contract TicketStore"
                           }
                         ],
-                        "id": 1706,
+                        "id": 1694,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -461,7 +456,7 @@
                         },
                         "typeName": "address"
                       },
-                      "id": 1708,
+                      "id": 1696,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -475,7 +470,7 @@
                         "typeString": "address"
                       }
                     },
-                    "id": 1709,
+                    "id": 1697,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -489,36 +484,36 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1705,
-                  "id": 1710,
+                  "functionReturnParameters": 1693,
+                  "id": 1698,
                   "nodeType": "Return",
                   "src": "359:28:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1712,
+            "id": 1700,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getBalanceMoney",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1702,
+              "id": 1690,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "320:2:4"
             },
             "returnParameters": {
-              "id": 1705,
+              "id": 1693,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1704,
+                  "id": 1692,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1712,
+                  "scope": 1700,
                   "src": "343:4:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -527,7 +522,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1703,
+                    "id": 1691,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "343:4:4",
@@ -542,7 +537,7 @@
               ],
               "src": "342:6:4"
             },
-            "scope": 1732,
+            "scope": 1717,
             "src": "296:98:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -550,22 +545,22 @@
           },
           {
             "body": {
-              "id": 1730,
+              "id": 1715,
               "nodeType": "Block",
-              "src": "524:95:4",
+              "src": "505:88:4",
               "statements": [
                 {
                   "assignments": [
-                    1720
+                    1706
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 1720,
+                      "id": 1706,
                       "name": "tokenId",
                       "nodeType": "VariableDeclaration",
-                      "scope": 1730,
-                      "src": "534:15:4",
+                      "scope": 1715,
+                      "src": "515:15:4",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -573,10 +568,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 1719,
+                        "id": 1705,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "534:7:4",
+                        "src": "515:7:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -586,39 +581,26 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 1727,
+                  "id": 1712,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1723,
-                        "name": "color",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 1714,
-                        "src": "570:5:4",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_string_memory_ptr",
-                          "typeString": "string memory"
-                        }
-                      },
-                      {
-                        "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 1724,
+                          "id": 1709,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2435,
-                          "src": "577:3:4",
+                          "referencedDeclaration": 2420,
+                          "src": "551:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 1725,
+                        "id": 1710,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -626,7 +608,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "577:10:4",
+                        "src": "551:10:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -636,42 +618,38 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_string_memory_ptr",
-                          "typeString": "string memory"
-                        },
-                        {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1721,
+                        "id": 1707,
                         "name": "_festiTicket",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1678,
-                        "src": "552:12:4",
+                        "referencedDeclaration": 1666,
+                        "src": "533:12:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Color_$133",
+                          "typeIdentifier": "t_contract$_Color_$121",
                           "typeString": "contract Color"
                         }
                       },
-                      "id": 1722,
+                      "id": 1708,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "mint",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 102,
-                      "src": "552:17:4",
+                      "referencedDeclaration": 90,
+                      "src": "533:17:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_string_memory_ptr_$_t_address_$returns$_t_uint256_$",
-                        "typeString": "function (string memory,address) external returns (uint256)"
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) external returns (uint256)"
                       }
                     },
-                    "id": 1726,
+                    "id": 1711,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -679,87 +657,60 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "552:36:4",
+                    "src": "533:29:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "534:54:4"
+                  "src": "515:47:4"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1728,
+                    "id": 1713,
                     "name": "tokenId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 1720,
-                    "src": "605:7:4",
+                    "referencedDeclaration": 1706,
+                    "src": "579:7:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1718,
-                  "id": 1729,
+                  "functionReturnParameters": 1704,
+                  "id": 1714,
                   "nodeType": "Return",
-                  "src": "598:14:4"
+                  "src": "572:14:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1731,
+            "id": 1716,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "buyTicket",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1715,
+              "id": 1701,
               "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 1714,
-                  "name": "color",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 1731,
-                  "src": "470:19:4",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_string_memory_ptr",
-                    "typeString": "string"
-                  },
-                  "typeName": {
-                    "id": 1713,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "470:6:4",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage_ptr",
-                      "typeString": "string"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "469:21:4"
+              "parameters": [],
+              "src": "469:2:4"
             },
             "returnParameters": {
-              "id": 1718,
+              "id": 1704,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1717,
+                  "id": 1703,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1731,
-                  "src": "515:7:4",
+                  "scope": 1716,
+                  "src": "496:7:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -767,10 +718,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1716,
+                    "id": 1702,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "515:7:4",
+                    "src": "496:7:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -780,33 +731,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "514:9:4"
+              "src": "495:9:4"
             },
-            "scope": 1732,
-            "src": "451:168:4",
+            "scope": 1717,
+            "src": "451:142:4",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1733,
-        "src": "47:622:4"
+        "scope": 1718,
+        "src": "47:596:4"
       }
     ],
-    "src": "0:669:4"
+    "src": "0:643:4"
   },
   "legacyAST": {
     "absolutePath": "/home/datphits/nft-ticket/src/contracts/TicketStore.sol",
     "exportedSymbols": {
       "TicketStore": [
-        1732
+        1717
       ]
     },
-    "id": 1733,
+    "id": 1718,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1675,
+        "id": 1663,
         "literals": [
           "solidity",
           "0.5",
@@ -818,10 +769,10 @@
       {
         "absolutePath": "/home/datphits/nft-ticket/src/contracts/Color.sol",
         "file": "./Color.sol",
-        "id": 1676,
+        "id": 1664,
         "nodeType": "ImportDirective",
-        "scope": 1733,
-        "sourceUnit": 134,
+        "scope": 1718,
+        "sourceUnit": 122,
         "src": "24:21:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -832,35 +783,35 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1732,
+        "id": 1717,
         "linearizedBaseContracts": [
-          1732
+          1717
         ],
         "name": "TicketStore",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 1678,
+            "id": 1666,
             "name": "_festiTicket",
             "nodeType": "VariableDeclaration",
-            "scope": 1732,
+            "scope": 1717,
             "src": "74:26:4",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Color_$133",
+              "typeIdentifier": "t_contract$_Color_$121",
               "typeString": "contract Color"
             },
             "typeName": {
               "contractScope": null,
-              "id": 1677,
+              "id": 1665,
               "name": "Color",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 133,
+              "referencedDeclaration": 121,
               "src": "74:5:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Color_$133",
+                "typeIdentifier": "t_contract$_Color_$121",
                 "typeString": "contract Color"
               }
             },
@@ -869,28 +820,28 @@
           },
           {
             "body": {
-              "id": 1687,
+              "id": 1675,
               "nodeType": "Block",
               "src": "145:43:4",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1685,
+                    "id": 1673,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 1683,
+                      "id": 1671,
                       "name": "_festiTicket",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1678,
+                      "referencedDeclaration": 1666,
                       "src": "155:12:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Color_$133",
+                        "typeIdentifier": "t_contract$_Color_$121",
                         "typeString": "contract Color"
                       }
                     },
@@ -898,62 +849,62 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1684,
+                      "id": 1672,
                       "name": "festiTicket",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1680,
+                      "referencedDeclaration": 1668,
                       "src": "170:11:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Color_$133",
+                        "typeIdentifier": "t_contract$_Color_$121",
                         "typeString": "contract Color"
                       }
                     },
                     "src": "155:26:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Color_$133",
+                      "typeIdentifier": "t_contract$_Color_$121",
                       "typeString": "contract Color"
                     }
                   },
-                  "id": 1686,
+                  "id": 1674,
                   "nodeType": "ExpressionStatement",
                   "src": "155:26:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1688,
+            "id": 1676,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1681,
+              "id": 1669,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1680,
+                  "id": 1668,
                   "name": "festiTicket",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1688,
+                  "scope": 1676,
                   "src": "119:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Color_$133",
+                    "typeIdentifier": "t_contract$_Color_$121",
                     "typeString": "contract Color"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 1679,
+                    "id": 1667,
                     "name": "Color",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 133,
+                    "referencedDeclaration": 121,
                     "src": "119:5:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Color_$133",
+                      "typeIdentifier": "t_contract$_Color_$121",
                       "typeString": "contract Color"
                     }
                   },
@@ -964,12 +915,12 @@
               "src": "118:19:4"
             },
             "returnParameters": {
-              "id": 1682,
+              "id": 1670,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "145:0:4"
             },
-            "scope": 1732,
+            "scope": 1717,
             "src": "107:81:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -977,7 +928,7 @@
           },
           {
             "body": {
-              "id": 1700,
+              "id": 1688,
               "nodeType": "Block",
               "src": "245:45:4",
               "statements": [
@@ -991,7 +942,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 1697,
+                        "id": 1685,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1000,18 +951,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 1694,
+                            "id": 1682,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2435,
+                            "referencedDeclaration": 2420,
                             "src": "263:3:4",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 1695,
+                          "id": 1683,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1029,11 +980,11 @@
                         "operator": "==",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 1696,
+                          "id": 1684,
                           "name": "amount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1690,
+                          "referencedDeclaration": 1678,
                           "src": "276:6:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1054,21 +1005,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 1693,
+                      "id": 1681,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2438,
-                        2439
+                        2423,
+                        2424
                       ],
-                      "referencedDeclaration": 2438,
+                      "referencedDeclaration": 2423,
                       "src": "255:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 1698,
+                    "id": 1686,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1082,29 +1033,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1699,
+                  "id": 1687,
                   "nodeType": "ExpressionStatement",
                   "src": "255:28:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1701,
+            "id": 1689,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1691,
+              "id": 1679,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1690,
+                  "id": 1678,
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1701,
+                  "scope": 1689,
                   "src": "212:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1113,7 +1064,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1689,
+                    "id": 1677,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "212:7:4",
@@ -1129,12 +1080,12 @@
               "src": "211:16:4"
             },
             "returnParameters": {
-              "id": 1692,
+              "id": 1680,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "245:0:4"
             },
-            "scope": 1732,
+            "scope": 1717,
             "src": "194:96:4",
             "stateMutability": "payable",
             "superFunction": null,
@@ -1142,7 +1093,7 @@
           },
           {
             "body": {
-              "id": 1711,
+              "id": 1699,
               "nodeType": "Block",
               "src": "349:45:4",
               "statements": [
@@ -1154,14 +1105,14 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 1707,
+                          "id": 1695,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2488,
+                          "referencedDeclaration": 2473,
                           "src": "374:4:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_TicketStore_$1732",
+                            "typeIdentifier": "t_contract$_TicketStore_$1717",
                             "typeString": "contract TicketStore"
                           }
                         }
@@ -1169,11 +1120,11 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_TicketStore_$1732",
+                            "typeIdentifier": "t_contract$_TicketStore_$1717",
                             "typeString": "contract TicketStore"
                           }
                         ],
-                        "id": 1706,
+                        "id": 1694,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1186,7 +1137,7 @@
                         },
                         "typeName": "address"
                       },
-                      "id": 1708,
+                      "id": 1696,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1200,7 +1151,7 @@
                         "typeString": "address"
                       }
                     },
-                    "id": 1709,
+                    "id": 1697,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1214,36 +1165,36 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1705,
-                  "id": 1710,
+                  "functionReturnParameters": 1693,
+                  "id": 1698,
                   "nodeType": "Return",
                   "src": "359:28:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1712,
+            "id": 1700,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getBalanceMoney",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1702,
+              "id": 1690,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "320:2:4"
             },
             "returnParameters": {
-              "id": 1705,
+              "id": 1693,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1704,
+                  "id": 1692,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1712,
+                  "scope": 1700,
                   "src": "343:4:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1252,7 +1203,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1703,
+                    "id": 1691,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "343:4:4",
@@ -1267,7 +1218,7 @@
               ],
               "src": "342:6:4"
             },
-            "scope": 1732,
+            "scope": 1717,
             "src": "296:98:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1275,22 +1226,22 @@
           },
           {
             "body": {
-              "id": 1730,
+              "id": 1715,
               "nodeType": "Block",
-              "src": "524:95:4",
+              "src": "505:88:4",
               "statements": [
                 {
                   "assignments": [
-                    1720
+                    1706
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 1720,
+                      "id": 1706,
                       "name": "tokenId",
                       "nodeType": "VariableDeclaration",
-                      "scope": 1730,
-                      "src": "534:15:4",
+                      "scope": 1715,
+                      "src": "515:15:4",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1298,10 +1249,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 1719,
+                        "id": 1705,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "534:7:4",
+                        "src": "515:7:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1311,39 +1262,26 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 1727,
+                  "id": 1712,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1723,
-                        "name": "color",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 1714,
-                        "src": "570:5:4",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_string_memory_ptr",
-                          "typeString": "string memory"
-                        }
-                      },
-                      {
-                        "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 1724,
+                          "id": 1709,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2435,
-                          "src": "577:3:4",
+                          "referencedDeclaration": 2420,
+                          "src": "551:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 1725,
+                        "id": 1710,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1351,7 +1289,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "577:10:4",
+                        "src": "551:10:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1361,42 +1299,38 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_string_memory_ptr",
-                          "typeString": "string memory"
-                        },
-                        {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1721,
+                        "id": 1707,
                         "name": "_festiTicket",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1678,
-                        "src": "552:12:4",
+                        "referencedDeclaration": 1666,
+                        "src": "533:12:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Color_$133",
+                          "typeIdentifier": "t_contract$_Color_$121",
                           "typeString": "contract Color"
                         }
                       },
-                      "id": 1722,
+                      "id": 1708,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "mint",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 102,
-                      "src": "552:17:4",
+                      "referencedDeclaration": 90,
+                      "src": "533:17:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_string_memory_ptr_$_t_address_$returns$_t_uint256_$",
-                        "typeString": "function (string memory,address) external returns (uint256)"
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) external returns (uint256)"
                       }
                     },
-                    "id": 1726,
+                    "id": 1711,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1404,87 +1338,60 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "552:36:4",
+                    "src": "533:29:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "534:54:4"
+                  "src": "515:47:4"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1728,
+                    "id": 1713,
                     "name": "tokenId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 1720,
-                    "src": "605:7:4",
+                    "referencedDeclaration": 1706,
+                    "src": "579:7:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1718,
-                  "id": 1729,
+                  "functionReturnParameters": 1704,
+                  "id": 1714,
                   "nodeType": "Return",
-                  "src": "598:14:4"
+                  "src": "572:14:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 1731,
+            "id": 1716,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "buyTicket",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1715,
+              "id": 1701,
               "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 1714,
-                  "name": "color",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 1731,
-                  "src": "470:19:4",
-                  "stateVariable": false,
-                  "storageLocation": "memory",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_string_memory_ptr",
-                    "typeString": "string"
-                  },
-                  "typeName": {
-                    "id": 1713,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "470:6:4",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage_ptr",
-                      "typeString": "string"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "469:21:4"
+              "parameters": [],
+              "src": "469:2:4"
             },
             "returnParameters": {
-              "id": 1718,
+              "id": 1704,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1717,
+                  "id": 1703,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1731,
-                  "src": "515:7:4",
+                  "scope": 1716,
+                  "src": "496:7:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1492,10 +1399,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1716,
+                    "id": 1702,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "515:7:4",
+                    "src": "496:7:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1505,20 +1412,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "514:9:4"
+              "src": "495:9:4"
             },
-            "scope": 1732,
-            "src": "451:168:4",
+            "scope": 1717,
+            "src": "451:142:4",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1733,
-        "src": "47:622:4"
+        "scope": 1718,
+        "src": "47:596:4"
       }
     ],
-    "src": "0:669:4"
+    "src": "0:643:4"
   },
   "compiler": {
     "name": "solc",
@@ -1528,12 +1435,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x91C721FF8b37Fb50398F263E60250233EA84eac7",
-      "transactionHash": "0x7851f7602740324541ab403a986f3ef7b48519090195f99a4c3aeb2c955fbaa9"
+      "address": "0x5DeA4092fA8522025fd60139DA5B052c7FdCb0dC",
+      "transactionHash": "0x1a7af7cc23529a1cfe4a6c25149e5eb4a0b215a13347a0c96be358ef25e74af5"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2021-06-07T10:18:20.023Z",
+  "updatedAt": "2021-06-08T08:35:57.830Z",
   "devdoc": {
     "methods": {}
   },

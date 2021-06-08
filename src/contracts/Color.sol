@@ -6,6 +6,7 @@ contract Color is ERC721Full{
     using Counters for Counters.Counter;
 
     string[] public colors;
+    uint256[] public idTicket;
     mapping(string => bool) _colorExists;
     uint32 private _maxAmount;
     uint256 private _ticketPrice;
@@ -17,13 +18,11 @@ contract Color is ERC721Full{
         _ticketPrice = ticketPrice;
     }
 
-    function mint(string memory _color, address _buyer) public returns (uint256){
-        require(!_colorExists[_color]);
+    function mint(address _buyer) public returns (uint256){
         require(_tokenIdTracker.current() < _maxAmount);
         uint256 tokenId = _tokenIdTracker.current();
-        uint _id = colors.push(_color);
+        uint256 _id = idTicket.push(tokenId);
         _mint(_buyer, _id);
-        _colorExists[_color] = true;
         _tokenIdTracker.increment();
         return tokenId;
     }

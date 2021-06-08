@@ -20,8 +20,8 @@ contract TicketStore {
 //    function receiveEthers()  public  {
 //    }
 
-    function buyTicket(string memory color) payable public returns (uint256) {
-        uint256 tokenId = _festiTicket.mint(color, msg.sender);
+    function buyTicket() payable public returns (uint256) {
+        uint256 tokenId = _festiTicket.mint(msg.sender);
         return tokenId;
     }
 //
