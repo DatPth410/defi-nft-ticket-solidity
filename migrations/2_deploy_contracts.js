@@ -1,10 +1,12 @@
 const Color = artifacts.require("Color");
-module.exports = function(deployer) {
-    deployer.deploy(Color);
+const TicketStore = artifacts.require("TicketStore");
+const InitialTicketPrice = 5; //100.00 XCUR initial price
+const MaxTicketCount = 10;
+var colorInstance;
+
+module.exports = async function(deployer) {
+    await deployer.deploy(Color, InitialTicketPrice, MaxTicketCount);
+    colorInstance = await Color.deployed();
+    await deployer.deploy(TicketStore, colorInstance.address);
 };
 
-// const CurrencyToken = artifacts.require("CurrencyToken");
-// module.exports = function(deployer) {
-//     deployer.deploy(CurrencyToken);
-// };
-//
